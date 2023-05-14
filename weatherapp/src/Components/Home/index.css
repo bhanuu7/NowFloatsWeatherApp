@@ -1,0 +1,70 @@
+.bgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148639325.jpg");
+    min-height: 100vh;
+    color: rgb(100, 100, 100);
+}
+.report-container{
+    background-color:rgba(100,100,100,0.3);
+    border:2px solid #ffffff;
+    height:min-content;
+    padding:20px;
+    width:30vw;
+    border-radius:10px;
+    color:#ffffff;
+    margin-top:3vh;
+    position:relative;
+}
+
+.position{
+    position:absolute;
+    right:2%;
+}
+
+.search-container{
+    height:40px;
+    width:200px;
+    border:0;
+    outline:none;
+    margin-top:2vh;
+    border-radius:8px;
+    background-color:rgba(0,0,0,0.7);
+    color:#ffffff;
+    padding:10px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.favorite {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    margin-top: -10%;
+    
+    justify-content: space-between;
+}
+.error{
+    color:red;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.like {
+    color: red;
+    position: absolute;
+    right: 2%;
+}
+
+.favorite-locations{
+    color:rgba(0,0,0,1);
+    font-weight:bold;
+    cursor:pointer;
+}
